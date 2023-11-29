@@ -8,13 +8,13 @@ public class Main {
         //Методы и их логику продумайте сами
         trueOrFalse(inputUser());
     }
-    public static int inputUser(){
+
+    public static int inputUser() {
         System.out.println("Введите целое число: ");
         return new Scanner(System.in).nextInt();
     }
-    public static void trueOrFalse(int num){
-        if (num%2==0){
-            System.out.println("true");
-        }else System.out.println("false");
+
+    public static void trueOrFalse(int num) {
+        System.out.println(num % 2 == 0);
     }
 }
