@@ -17,22 +17,22 @@ public class Main {
 
     private static void divide() {
         //todo дописать логику и печать результата
-        System.out.println(a/b);
+        System.out.println(a+" / "+b+ " = "+(a/b));
     }
 
     private static void diff() {
         //todo дописать логику и печать результата
-        System.out.println(a-b);
+        System.out.println(a+" - "+b+ " = "+(a-b));
     }
 
     private static void multiply() {
         //todo дописать логику и печать результата
-        System.out.println(a*b);
+        System.out.println(a+" * "+b+ " = "+(a*b));
     }
 
     private static void sum() {
         //todo дописать логику и печать результата
-        System.out.println(a+b);
+        System.out.println(a+" + "+b+ " = "+(a+b));
     }
 
     private static double inputDouble() {
